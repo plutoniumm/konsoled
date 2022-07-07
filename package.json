@@ -1,0 +1,30 @@
+{
+	"name": "konsoled",
+	"description": "SuperPowered Console.log",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"devDependencies": {},
+	"dependencies": {
+		"picocolors": "^1.0.0"
+	},
+	"scripts": {
+		"test": "node test",
+		"git": "read -p 'Commmit Message: ' msg; git commit -am '$msg'; git push",
+		"deploy": "npm publish && npm run git"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/plutoniumm/konsoled.git"
+	},
+	"keywords": [
+		"console",
+		"log"
+	],
+	"author": "plutoniumm",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/plutoniumm/konsoled/issues"
+	},
+	"homepage": "https://github.com/plutoniumm/konsoled#readme"
+}
